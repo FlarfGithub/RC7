@@ -102,7 +102,7 @@ __declspec(naked) void mainHook()
 		mov esp, [esp + 8]
 		cmp esi, textEnd // is current address outside end of .text
 		ja check2
-		mov eax, fs: [0x30]	// .text base from PEB //
+		mov eax, fs: [0x30]	// .text base from PEB //012
 		mov eax, [eax + 8]
 		cmp esi, eax // is current address outside start of .text
 		jb check2
