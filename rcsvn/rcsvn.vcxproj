@@ -159,6 +159,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CheckBypasses.h" />
     <ClInclude Include="intercom.h" />
     <ClInclude Include="memcheck.h" />
     <ClInclude Include="mmgr.h" />
