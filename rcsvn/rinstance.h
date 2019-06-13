@@ -13,7 +13,7 @@
 #define GETLP_OFF		0xCC
 
 // datamodel ptr
-#define Game_Ptr_A		0x01D1F174
+#define Game_Ptr_A		0x00d5f174//updated idle for to long
 #define Game_Ptr_B		0x01E82884
 
 // workspace ptr
